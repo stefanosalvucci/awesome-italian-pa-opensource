@@ -1,4 +1,4 @@
-# Awesome Italian PA Dev [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md) [![Last Updated](https://img.shields.io/badge/last%20updated-March%202026-blue.svg)](#)
+# Awesome Italian PA opensource [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md) [![Last Updated](https://img.shields.io/badge/last%20updated-March%202026-blue.svg)](#)
 
 A curated list of open-source libraries, tools, and resources for integrating Italian Public Administration services into software applications.
 
