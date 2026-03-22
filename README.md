@@ -23,8 +23,10 @@ A curated list of open-source libraries, tools, and resources for integrating It
   - [SEND (Piattaforma Notifiche)](#send-piattaforma-notifiche)
 - [Registries \& Open Data](#-registries--open-data)
   - [ANPR](#anpr)
+  - [ANNCSU](#anncsu)
   - [Comuni / CAP / ISTAT](#comuni--cap--istat)
   - [Catasto / SISTER](#catasto--sister)
+  - [Normativa / Legal Texts](#normativa--legal-texts)
   - [Open Data Portals \& Semantic Assets](#open-data-portals--semantic-assets)
 - [Healthcare](#-healthcare)
   - [FSE (Fascicolo Sanitario Elettronico)](#fse-fascicolo-sanitario-elettronico)
@@ -73,6 +75,8 @@ A curated list of open-source libraries, tools, and resources for integrating It
 - [WPGov/wp-spid-italia](https://github.com/WPGov/wp-spid-italia) — SPID integration plugin for WordPress. `PHP`
 - [italia/spid-shibboleth-proxy-docker](https://github.com/italia/spid-shibboleth-proxy-docker) — SPID authentication proxy based on Shibboleth SP (Docker). `Docker` ⚠️ *unmaintained*
 - [microsoft/SPID-and-Digital-Identity-Enabler](https://github.com/microsoft/SPID-and-Digital-Identity-Enabler) — SPID proxy for ADFS/Azure AD B2C. `C#`
+- [INPS-it/SPIDlibraryAndroid](https://github.com/INPS-it/SPIDlibraryAndroid) — SPID login library for Android with multiple IdP support. `Kotlin`
+- [INPS-it/SPIDlibraryIOS](https://github.com/INPS-it/SPIDlibraryIOS) — SPID login library for iOS with multiple IdP support. `Swift`
 
 #### OIDC Libraries
 
@@ -191,6 +195,12 @@ Italian law requires digital signatures (CAdES, PAdES, XAdES) for many official 
 - [italia/anpr](https://github.com/italia/anpr) — Official ANPR documentation and issue tracker. `Docs`
 - [italia/anpr-client-example](https://github.com/italia/anpr-client-example) — Example Java client for connecting to ANPR APIs. `Java`
 
+### ANNCSU
+
+[ANNCSU](https://www.anncsu.gov.it/) (Archivio Nazionale dei Numeri Civici e delle Strade Urbane) is Italy's national archive of street addresses and house numbers, jointly managed by ISTAT and Agenzia delle Entrate.
+
+- [ondata/archivio_anncsu](https://github.com/ondata/archivio_anncsu) — Tools for accessing and processing ANNCSU address data. `Shell`
+
 ### Comuni / CAP / ISTAT
 
 Open datasets of Italian municipalities, postal codes (CAP), and ISTAT statistical codes. Essential for address validation, form autocomplete, and geographic lookups.
@@ -198,12 +208,20 @@ Open datasets of Italian municipalities, postal codes (CAP), and ISTAT statistic
 - [matteocontrini/comuni-json](https://github.com/matteocontrini/comuni-json) — JSON database of Italian municipalities with ISTAT codes and CAP. `JSON`
 - [MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) — Italian municipalities database in SQL, JSON, and Excel formats. `SQL`
 - [Samurai016/Comuni-ITA](https://github.com/Samurai016/Comuni-ITA) — REST API for Italian municipalities in JSON/XML/CSV. `TypeScript`
+- [ondata/guida-api-istat](https://github.com/ondata/guida-api-istat) — Comprehensive guide to ISTAT REST APIs with examples and documentation. `Shell`
 
 ### Catasto / SISTER
 
 [SISTER](https://sister.agenziaentrate.gov.it/) (Sistema Integrato del Territorio) is the Agenzia delle Entrate's portal for accessing Italian cadastral data (land and building registry). It provides land parcel details, property ownership records, and territorial sections.
 
 - [zornade/visura-api](https://github.com/zornade/visura-api) — API service for automated cadastral data extraction from the SISTER portal, with SPID authentication (Sielte ID). `Python`
+- [ondata/dati_catastali](https://github.com/ondata/dati_catastali) — Query Italian cadastral data by attribute (land parcels, ownership). `Shell`
+
+### Normativa / Legal Texts
+
+[Normattiva](https://www.normattiva.it/) is Italy's official portal for consolidated legislation. Tools below help access, convert, and process Italian legal texts programmatically.
+
+- [ondata/normattiva_2_md](https://github.com/ondata/normattiva_2_md) — Convert Italian legislation from Normattiva into clean Markdown format, optimized for AI/LLM consumption. `Python`
 
 ### Open Data Portals & Semantic Assets
 
@@ -217,6 +235,8 @@ Italy maintains national open data portals and a set of semantic assets (ontolog
 - [italia/ckan-it](https://github.com/italia/ckan-it) — Docker images for CKAN with Italian open data extensions. `Shell`
 - [italia/pdnd-opendata](https://github.com/italia/pdnd-opendata) — Open data from PDND (Piattaforma Digitale Nazionale Dati). `Data`
 - [italia/dati-semantic-mcp](https://github.com/italia/dati-semantic-mcp) — MCP server for interacting with schema.gov.it semantic assets. `TypeScript`
+- [ondata/ckan-mcp-server](https://github.com/ondata/ckan-mcp-server) — MCP server for querying CKAN open data portals (package search, DataStore SQL, organizations, groups, tags). `TypeScript`
+- [ondata/istat_mcp_server](https://github.com/ondata/istat_mcp_server) — MCP server for interacting with ISTAT SDMX statistical APIs. `Python`
 
 ---
 
@@ -249,6 +269,7 @@ The [Tessera Sanitaria](https://sistemats1.sanita.finanze.it/) (Health Insurance
 - [italia/designers.italia.it](https://github.com/italia/designers.italia.it) — Designers Italia — design resources and knowledge base for Italian PA. `Docs`
 - [italia/design-web-toolkit](https://github.com/italia/design-web-toolkit) — Original web UI toolkit (deprecated, use Bootstrap Italia). `HTML` ⚠️ *deprecated*
 - [pagopa/mui-italia](https://github.com/pagopa/mui-italia) — Material-UI theme inspired by Bootstrap Italia. `TypeScript`
+- [INPS-it/sirio-kit-web](https://github.com/INPS-it/sirio-kit-web) — Sirio Design System — INPS official UI component library. `HTML`
 
 ### Framework Integrations
 
@@ -305,6 +326,10 @@ The [Tessera Sanitaria](https://sistemats1.sanita.finanze.it/) (Health Insurance
 ## Contributing
 
 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) before submitting a PR.
+
+## Maintainers
+
+This list is curated and maintained by [Stefano Salvucci](https://www.stefanosalvucci.com/).
 
 ## License
 
