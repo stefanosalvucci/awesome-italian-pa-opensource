@@ -24,6 +24,7 @@ A curated list of open-source libraries, tools, and resources for integrating It
 - [Registries \& Open Data](#-registries--open-data)
   - [ANPR](#anpr)
   - [Comuni / CAP / ISTAT](#comuni--cap--istat)
+  - [Catasto / SISTER](#catasto--sister)
   - [Open Data Portals \& Semantic Assets](#open-data-portals--semantic-assets)
 - [Healthcare](#-healthcare)
   - [FSE (Fascicolo Sanitario Elettronico)](#fse-fascicolo-sanitario-elettronico)
@@ -197,6 +198,12 @@ Open datasets of Italian municipalities, postal codes (CAP), and ISTAT statistic
 - [matteocontrini/comuni-json](https://github.com/matteocontrini/comuni-json) — JSON database of Italian municipalities with ISTAT codes and CAP. `JSON`
 - [MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel](https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel) — Italian municipalities database in SQL, JSON, and Excel formats. `SQL`
 - [Samurai016/Comuni-ITA](https://github.com/Samurai016/Comuni-ITA) — REST API for Italian municipalities in JSON/XML/CSV. `TypeScript`
+
+### Catasto / SISTER
+
+[SISTER](https://sister.agenziaentrate.gov.it/) (Sistema Integrato del Territorio) is the Agenzia delle Entrate's portal for accessing Italian cadastral data (land and building registry). It provides land parcel details, property ownership records, and territorial sections.
+
+- [zornade/visura-api](https://github.com/zornade/visura-api) — API service for automated cadastral data extraction from the SISTER portal, with SPID authentication (Sielte ID). `Python`
 
 ### Open Data Portals & Semantic Assets
 
