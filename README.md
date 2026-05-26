@@ -26,6 +26,7 @@ A curated list of open-source libraries, tools, and resources for integrating It
   - [ANNCSU](#anncsu)
   - [Comuni / CAP / ISTAT](#comuni--cap--istat)
   - [Catasto / SISTER](#catasto--sister)
+  - [Fiscal \& Budget Data](#fiscal--budget-data)
   - [Normativa / Legal Texts](#normativa--legal-texts)
   - [Open Data Portals \& Semantic Assets](#open-data-portals--semantic-assets)
 - [Healthcare](#-healthcare)
@@ -217,6 +218,14 @@ Open datasets of Italian municipalities, postal codes (CAP), and ISTAT statistic
 - [zornade/visura-api](https://github.com/zornade/visura-api) — API service for automated cadastral data extraction from the SISTER portal, with SPID authentication (Sielte ID). `Python`
 - [ondata/dati_catastali](https://github.com/ondata/dati_catastali) — Query Italian cadastral data by attribute (land parcels, ownership). `Shell`
 
+### Fiscal & Budget Data
+
+Public-finance data published by MEF and Banca d'Italia — including [SIOPE](https://www.siope.it/) (Sistema Informativo Operazioni Enti Pubblici), tracking cash flows of Italian public entities, and [OpenBDAP](https://openbdap.mef.gov.it/) (Banca Dati Amministrazioni Pubbliche), the Ragioneria Generale dello Stato portal for fiscal accounts.
+
+- [dataciviclab/siope-comuni](https://github.com/dataciviclab/siope-comuni) — Pipeline for SIOPE municipal cash flows 2021-2025 (entrate/uscite) with DuckDB mart and analytical notebooks. `Jupyter Notebook`
+- [dataciviclab/openbdap-saldi-storico-stato](https://github.com/dataciviclab/openbdap-saldi-storico-stato) — Historical analysis of State fiscal balances from OpenBDAP — does current spending structurally compress investments? `Jupyter Notebook`
+- [dataciviclab/progetto-pilota](https://github.com/dataciviclab/progetto-pilota) — Pilot analysis on Italian municipalities: do those improving recycling rates also reduce total waste? `Jupyter Notebook`
+
 ### Normativa / Legal Texts
 
 [Normattiva](https://www.normattiva.it/) is Italy's official portal for consolidated legislation. Tools below help access, convert, and process Italian legal texts programmatically.
@@ -237,6 +246,10 @@ Italy maintains national open data portals and a set of semantic assets (ontolog
 - [italia/dati-semantic-mcp](https://github.com/italia/dati-semantic-mcp) — MCP server for interacting with schema.gov.it semantic assets. `TypeScript`
 - [ondata/ckan-mcp-server](https://github.com/ondata/ckan-mcp-server) — MCP server for querying CKAN open data portals (package search, DataStore SQL, organizations, groups, tags). `TypeScript`
 - [ondata/istat_mcp_server](https://github.com/ondata/istat_mcp_server) — MCP server for interacting with ISTAT SDMX statistical APIs. `Python`
+- [dataciviclab/toolkit](https://github.com/dataciviclab/toolkit) — Reproducible data-pipeline engine (RAW → CLEAN → MART) driven by `dataset.yml`, with validation, tracking, and notebook-friendly outputs. `Python`
+- [dataciviclab/source-observatory](https://github.com/dataciviclab/source-observatory) — Intelligence layer for Italian public data sources: radar, catalog-watch, resource monitoring, source-check workflows. `Python`
+- [dataciviclab/data-explorer](https://github.com/dataciviclab/data-explorer) — Public data frontend built on Observable Framework, DuckDB, and clean Parquet on GCS. `Python`
+- [dataciviclab/dataciviclab](https://github.com/dataciviclab/dataciviclab) — Public hub of the DataCivicLab ecosystem — civic data analysis on Italy. `Jupyter Notebook`
 
 ---
 
