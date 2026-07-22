@@ -336,6 +336,12 @@ The [Tessera Sanitaria](https://sistemats1.sanita.finanze.it/) (Health Insurance
 
 ---
 
+## 📚 Related Awesome Lists
+
+- [melodygeek/awesome-api-italia](https://github.com/melodygeek/awesome-api-italia) — A curated list of Italian APIs and international APIs with Italian data: PA, land registry, tax, automotive, companies, digital identity, weather, and more. `Markdown`
+
+---
+
 ## Contributing
 
 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) before submitting a PR.
