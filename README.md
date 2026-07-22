@@ -350,6 +350,13 @@ Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTIN
 
 This list is curated and maintained by [Stefano Salvucci](https://www.stefanosalvucci.com/).
 
+## Contributors
+
+Thanks to everyone who has contributed to this list:
+
+- [Stefano Salvucci](https://github.com/stefanosalvucci)
+- [Melania Di Gregorio](https://github.com/melodygeek)
+
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
