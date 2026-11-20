@@ -156,6 +156,7 @@ A curated list of open-source libraries, tools, and resources for integrating It
 - [andreafalzetti/node-fatturazione-elettronica-aruba](https://github.com/andreafalzetti/node-fatturazione-elettronica-aruba) — Node.js client for Aruba electronic invoicing API. `JavaScript`
 - [invopop/gobl.fatturapa](https://github.com/invopop/gobl.fatturapa) — Convert GOBL documents into FatturaPA invoices. `Go`
 - [EtheaDev/FExplorer](https://github.com/EtheaDev/FExplorer) — E-invoice viewer with Windows Explorer preview integration. `Pascal`
+- [docfaro-com/eu-einvoice-reader](https://github.com/docfaro-com/eu-einvoice-reader) — Parses FatturaPA XML, including signed `.xml.p7m` files, and other EU e-invoice formats into one JavaScript object in the browser and Node.js. `TypeScript`
 
 ### Codice Fiscale
 
